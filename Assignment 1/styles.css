@@ -1,16 +1,27 @@
 /* conatiner styling*/
-
+/* body */
 .container {
   width: 650px;
   height: 730px;
   text-align: center;
   position: relative;
 }
+
+/* Animation */
+@keyframes topdiv {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
 /* Top div styling */
 .top-div {
   background-color: rgb(0, 0, 96);
   width: 650px;
   height: 130px;
+  animation-name: topdiv;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
+  animation-direction: reverse;
   position: absolute;
   top: 30px;
 }
@@ -22,12 +33,22 @@
   font-size: 32px;
   display: inline;
 }
+
 .top-div img {
   width: 140px;
   height: 146px;
   border-radius: 100pc;
+  transition: width 1s, height 2s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   margin-left: 140px;
   margin-top: -8px;
+  
+}
+
+img:hover {
+  width: 120px;
+  height: 128px;
+  margin-top: 1px;
 }
 
 /* Vertical divs styling */
