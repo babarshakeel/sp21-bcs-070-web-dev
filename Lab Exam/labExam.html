@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap 5.0.2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="lab.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" style="display: flex; flex-direction: column;">
+          <img
+            src="https://cdn.shopify.com/s/files/1/1592/0041/files/pink_logo_for_pinktober.svg?v=1696315416"
+            alt="Logo"
+            width="300"
+            height="32"
+            class="d-inline-block align-text-top"
+            id="logo"
+            
+          />
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <input type="text" placeholder="Find your Favourites" style="width: 800px;height: 40px;margin-left: 100px;border-radius: 2px;"/>
+             
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">New in</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Woman</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Man</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-disabled="true">Kids</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-disabled="true">Beauty</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-disabled="true">Accessories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-disabled="true">Home</a>
+                </li>
+            </ul>
+            
+            </div>
+      </nav>
+
+     
+    
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/EMBRO-web-bannersy.webp?v=1698051598&width=2000" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/stiched-for-you-web-banners--copy2222.jpg?v=1698055530&width=2000" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+      <div style="display: flex; flex-direction: row;margin-top: 50px;">
+         <div style="border-radius: 100%; width: 200px;height: 200px;background-color: red;margin-left: 80px;">
+           <img src="https://pk.sapphireonline.pk/cdn/shop/files/under-5000-thumbnail.webp?v=1698306825&width=200" style="border-radius: 100%; width: 200px;height: 200px;" />
+         </div>
+         <div style="border-radius: 100%; width: 200px;height: 200px;background-color: red;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/styled-by-sarah-khan-2-whats-new_439e196a-626b-4b91-b8dd-bd7da46180ee_1.webp?v=1698054359&width=200" style="border-radius: 100%; width: 200px;height: 200px;" />
+          </div>
+          <div style="border-radius: 100%; width: 200px;height: 200px;background-color: red;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/under-5000-thumbnail.webp?v=1698306825&width=200" style="border-radius: 100%; width: 200px;height: 200px;" />
+          </div>
+          <div style="border-radius: 100%; width: 200px;height: 200px;background-color: red;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/under-5000-thumbnail.webp?v=1698306825&width=200" style="border-radius: 100%; width: 200px;height: 200px;" />
+          </div>
+          <div style="border-radius: 100%; width: 200px;height: 200px;background-color: red;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/under-5000-thumbnail.webp?v=1698306825&width=200" style="border-radius: 100%; width: 200px;height: 200px;" />
+          </div>
+          <div style="border-radius: 100%; width: 200px;height: 200px;background-color: red;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/under-5000-thumbnail.webp?v=1698306825&width=200" style="border-radius: 100%; width: 200px;height: 200px;" />
+          </div>
+         
+
+      </div>
+
+
+
+      
+      <h3 style="margin-left: 600px; margin-top: 50px;">
+        Search by Category
+      </h3>
+      <div style="display: flex; flex-direction: row;margin-top: 50px;">
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000" style="width: 100%;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/menswear-2-shop-by-category_dab0d84d-ab24-4bcc-a3a2-a8bd3974feb8.webp?v=1698052969&width=400" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+         
+        </button>
+      </div>
+    
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000" style="width: 100%;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/US-2-shop-by-category.webp?v=1698052492&width=400" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+         
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          
+        </button>
+      </div>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000" style="width: 100%;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/Rtw-2-shop-by-category_113d461a-e06c-4780-a7ec-1624ef473844.webp?v=1698052962&width=400" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+         
+        </button>
+      </div>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000" style="width: 100%;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/kids-5-shop-by-category.webp?v=1698052559&width=400" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+         
+        </button>
+      </div>
+
+    </div>
+
+   
+    <h3 style="margin-left: 600px; margin-top: 50px;">
+        Search by Category
+      </h3>
+      <div style="display: flex; flex-direction: row;margin-top: 50px;">
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000" style="width: 100%;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/0SPFEFS23V64_2.jpg?v=1697038803&width=400" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+         
+        </button>
+      </div>
+    
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000" style="width: 100%;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/00SPRDY23V62_6.jpg?v=1697097193&width=400" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+         
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          
+        </button>
+      </div>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000" style="width: 100%;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/0SPREDY23V69_2.jpg?v=1697038820&width=400" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+         
+        </button>
+      </div>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000" style="width: 100%;">
+            <img src="https://pk.sapphireonline.pk/cdn/shop/files/SPBEDY23V515_1.jpg?v=1698061480&width=400" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+         
+        </button>
+      </div>
+
+    </div>
+
+    
+    <footer class="text-center text-lg-start" style="color: white; background-color: grey;margin-top: 120px;">
+        <div class="container p-4" style="justify-content: center;">
+          <footer class = "row text-center mb">
+            <div class = "col-lg-6 col-md-12 mb-4 mb-md-0">
+              <img src="https://cdn.shopify.com/s/files/1/1592/0041/files/pink_logo_for_pinktober.svg?v=1696315416" alt="Logo" width="300" height="32" class="d-inline-block align-text-top"/>
+            </div>
+            <div class = "col-lg-3 col-md-6 mb-4 mb-md-0">
+              <button type="button" class="btn btn-outline-primary me-2">Login</button>
+              <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+            <hr style="margin: 24px;"/>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Footer Content</h5>
+  
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                aliquam voluptatem veniam, est atque cumque eum delectus sint!
+              </p>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+  
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-light">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-light">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-light">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-light">Link 4</a>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Links</h5>
+  
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-light">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-light">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-light">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-light">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <hr style="margin: 16px;"/>
+            <p style="text-align: right;">©️ Cocacola corporation. All rights reserved.</p>
+          </div>
+          </footer>
+      </footer>
+
+
+</body>
+
+</html>
