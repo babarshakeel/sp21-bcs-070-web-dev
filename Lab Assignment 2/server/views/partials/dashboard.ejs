@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DashBoard</title>
+  </head>
+  <body>
+    <form action="/search" method="GET">
+      <input type="text" name="query" placeholder="Search users and blogs">
+      <button type="submit">Search</button>
+    </form>
+    <h2>Users</h2>
+    <ul>
+      <% users.forEach(function(user) { %>
+      <li>
+        <%= user.name %> <button data-id="<%= user._id %>">Delete</button>
+
+        <h3>Posts</h3>
+        <ul>
+          <% if (user.blogs) { %> 
+            <% user.blogs.forEach(function(blog) { %>
+            <li>
+              <%= blog.title %> <button data-id="<%= blog._id %>">Delete</button>
+            </li>
+            <% }); %> 
+          <% } else { %>
+            <li>No posts</li>
+          <% } %>
+        </ul>
+      </li>
+      <% }); %>
+    </ul>
+  </body>
+</html>

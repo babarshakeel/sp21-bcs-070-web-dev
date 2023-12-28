@@ -1,0 +1,62 @@
+.header-container {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-title {
+    color: white;
+    font-size: 24px;
+    text-decoration: none; 
+  }
+  
+  .header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .header-links button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  
+  .header-links a:hover,
+  .header-links button:hover {
+    text-decoration: underline; 
+  }
+  
+  .header-links a.selected,
+  .header-links button.selected {
+    text-decoration: underline; 
+    color: blue; 
+  }
+  
+  
+  .header-links a.login,
+  .header-links a.signup {
+    background-color: #9a0c0c; 
+    padding: 10px 12px;
+    border-radius: 12px;
+    color: white; 
+
+  }
+  
+  .header-links a.login:hover,
+  .header-links a.signup:hover {
+    background-color: #1eb014; 
+  }
